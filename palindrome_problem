@@ -1,0 +1,12 @@
+Let str="level";    
+Let N=str.length;
+Let x=0;
+if(str[x]==str[N-1]&&str[x+1]==str[N-2]){
+    
+    console.log( "palindrome" );
+}
+else{
+ 
+    console.log("not palindrome");
+
+}
